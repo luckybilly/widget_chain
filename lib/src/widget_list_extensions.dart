@@ -68,6 +68,7 @@ extension WidgetChantExt_WidgetList<T extends Widget> on List<T> {
     TextBaseline textBaseline,
   }) {
     return Row(
+      key: key,
       mainAxisAlignment: mainAxisAlignment,
       mainAxisSize: mainAxisSize,
       crossAxisAlignment: crossAxisAlignment,
