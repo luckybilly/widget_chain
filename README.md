@@ -60,7 +60,7 @@ class Test extends StatelessWidget {
 }
 ```
 
-to resolve nested hell, maybe you will extract an build method, then it looks like:
+to resolve nested hell, maybe you will extract a build method, then it looks like:
 
 ```dart
 class Test extends StatelessWidget {
@@ -98,9 +98,9 @@ class Test extends StatelessWidget {
 }
 ```
 
-use widget_chain can replace constructors by a `intoXxx()` function calling.
+Use widget_chain can replace constructors by an `intoXxx()` function calling.
 
-codes will looks like:
+The code looks like:
 
 ```dart
 class Test extends StatelessWidget {
