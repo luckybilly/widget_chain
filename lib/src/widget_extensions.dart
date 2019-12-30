@@ -1,7 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
-
 /// extension to make it is possible to use function calling instead of Widget Constructor
 ///
 /// For example:
@@ -19,7 +18,6 @@ import 'package:flutter/material.dart';
 ///
 ///
 extension WidgetChantExt_Widget on Widget {
-
   List<Widget> addNeighbor(Widget widget) {
     return <Widget>[this, widget];
   }
@@ -108,7 +106,7 @@ extension WidgetChantExt_Widget on Widget {
     );
   }
 
-Positioned intoPositioned({
+  Positioned intoPositioned({
     Key key,
     double left,
     double top,
@@ -355,8 +353,6 @@ Positioned intoPositioned({
       child: this,
     );
   }
-
-
 
   SingleChildScrollView intoSingleChildScrollView({
     Key key,

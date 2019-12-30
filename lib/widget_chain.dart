@@ -19,4 +19,3 @@ class WidgetChain {
     return widget;
   }
 }
-
