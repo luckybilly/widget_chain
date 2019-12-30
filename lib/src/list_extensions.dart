@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 extension WidgetChantExt_List<T> on List<T> {
-
   List<E> buildAll<E>(E Function(T) builder) {
     return this.map<E>((item) {
       return builder(item);
@@ -13,5 +12,4 @@ extension WidgetChantExt_List<T> on List<T> {
       return builder(item);
     }).toList();
   }
-
 }
