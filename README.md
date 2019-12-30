@@ -4,6 +4,8 @@ Get rid of the nested hell with shiny extensions, now!
 
 Chain programming, not widget nesting constructors.
 
+[![Pub](https://img.shields.io/pub/v/widget_chain.svg?style=flat-square)](https://pub.dartlang.org/packages/widget_chain)
+
 ```dart
 Container buildItem(String name) {
   return Icon(Icons.phone)
